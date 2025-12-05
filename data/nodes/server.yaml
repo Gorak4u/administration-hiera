@@ -1,1 +1,1 @@
-# This file can contain node-specific data for a node named 'server'. No node-specific overrides were requested for this context. For example: # profile_ggonda_cassandr::max_heap_size: "4G"
+---# data/nodes/server.yaml# Node-specific Hiera data for 'server'# This file can be used to override common settings for specific nodes.# Example:# profile_ggonda_cassandr::cluster_name: "Dev Cluster"
