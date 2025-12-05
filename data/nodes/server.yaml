@@ -1,1 +1,6 @@
----# data/nodes/server.yaml# Node-specific Hiera data for 'server'# This file can be used to override common settings for specific nodes.# Example:# profile_ggonda_cassandr::cluster_name: "Dev Cluster"
+---
+# data/nodes/server.yaml
+# Node-specific data can be placed here.
+# For this setup, most data is defined in common.yaml.
+# Example:
+# profile_ggonda_cassandr::max_heap_size: '4G'

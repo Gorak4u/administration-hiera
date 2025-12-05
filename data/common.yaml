@@ -1,1 +1,15 @@
----profile_ggonda_cassandr::cassandra_version: "4.1.10-1"profile_ggonda_cassandr::java_version: "11"profile_ggonda_cassandr::cluster_name: "Production Cluster"profile_ggonda_cassandr::seeds: "192.168.1.10,192.168.1.11"profile_ggonda_cassandr::max_heap_size: "2G"profile_ggonda_cassandr::datacenter: "dc1"profile_ggonda_cassandr::rack: "rack1"profile_ggonda_cassandr::gc_type: "G1GC"profile_ggonda_cassandr::cassandra_password: "PP/C@ss@ndr@123"profile_ggonda_cassandr::cassandra_user: "cassandra"profile_ggonda_cassandr::data_directory: "/var/lib/cassandra/data"profile_ggonda_cassandr::commitlog_directory: "/var/lib/cassandra/commitlog"profile_ggonda_cassandr::disable_swap_tune_os: trueprofile_ggonda_cassandr::replace_dead_node_ip: ""profile_ggonda_cassandr::enable_range_repair_script: false
+---
+profile_ggonda_cassandr::cluster_name: 'Production Cluster'
+profile_ggonda_cassandr::cassandra_version: '4.1.10-1'
+profile_ggonda_cassandr::java_version: '11'
+profile_ggonda_cassandr::seeds: '192.168.1.10,192.168.1.11'
+profile_ggonda_cassandr::max_heap_size: '2G'
+profile_ggonda_cassandr::datacenter: 'dc1'
+profile_ggonda_cassandr::rack: 'rack1'
+profile_ggonda_cassandr::gc_type: 'G1GC'
+profile_ggonda_cassandr::cassandra_password: 'PP/C@ss@ndr@123'
+profile_ggonda_cassandr::data_directory: '/var/lib/cassandra/data'
+profile_ggonda_cassandr::commitlog_directory: '/var/lib/cassandra/commitlog'
+profile_ggonda_cassandr::disable_swap_tune_os: true
+profile_ggonda_cassandr::replace_dead_node_ip: ''
+profile_ggonda_cassandr::enable_range_repair_script: false
